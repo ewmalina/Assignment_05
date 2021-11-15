@@ -29,7 +29,7 @@ while True:
     if strChoice == 'l':
         # TODO Add the functionality of loading existing data
         objFile = open(strFileName, 'r') # opens existing data file in read mode
-        lstTbl.clear()
+        # lstTbl.clear()
         for row in objFile:
             lstRow = row.strip().split(',')
             dicRow = {'ID': lstRow[0], 'Title': lstRow[1], 'Artist': lstRow[2]}
